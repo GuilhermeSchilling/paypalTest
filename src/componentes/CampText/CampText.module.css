@@ -1,0 +1,33 @@
+.inputbox {
+    display: inline-block;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.inputbox input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #009cde;
+    font-size: 0.8rem;
+}
+
+.inputbox input:hover {
+    background-color: #009cde;
+}
+
+.inputbox input:focus-visible {
+    outline: 1px solid #009cde;
+}
+
+.inputbox label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+    padding-right: 5px;
+}
+
+.inputbox input::placeholder {
+    color: #000000be;
+}
